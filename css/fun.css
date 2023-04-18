@@ -1,0 +1,118 @@
+/* a custom background color or image*/
+body{
+    background-color:antiquewhite;
+}
+.NavBarFun{
+    display: flex;
+    flex-direction: row;
+    background-color:floralwhite;
+    text-align: center;
+    color:black;
+    font-size: 17px;
+    padding: 15px;
+}
+.NavBarFun li{
+    flex-grow: 1;
+    list-style-type: none;
+}
+h1 {
+    font-family: 'Aboreto', bold;
+    color:black;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 40px;
+    font-size: 60px;
+    font: bold;
+}
+.anchor{
+    background-color: floralwhite;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color:black;
+}
+.anchor li{
+    flex-grow: 1;
+    list-style-type: none;
+    font-size: 14px;
+}
+h3{
+   padding-top: 25px;
+   font-family: 'Poiret One', cursive;
+   color: black;
+   text-decoration: underline;
+}
+/*four style definitions*/
+
+/*styles that speciffy font color*/
+
+/*styles that specifiy font family*/
+
+/*at least three divs that positions and styled using my styles*/
+
+/* #mydog{
+    list-style-type: none;
+    padding-bottom: 25px;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#yourdog{
+    list-style-type: none;
+    padding-bottom: 25px;
+    border-bottom: solid 2px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sillyvid{
+    list-style-type: none;
+    padding-bottom: 25px;
+    border-bottom: solid 2px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#myheart{
+    list-style-type: none;
+    padding-bottom: 25px;
+    border-bottom: solid 2px black;
+    font-family: 'Raleway', sans-serif;
+}*/
+
+#listtofix {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+#listtofix li{
+    list-style-type: none;
+    padding-bottom: 25px;
+    border-bottom: solid 2px black;
+    font-family: 'Raleway', sans-serif;
+}
+#myheart li{
+    list-style-type: circle;
+    border-bottom: none;
+    padding-bottom: 0px;
+} 
+
+#holdtableau{
+    display: flex;
+    justify-content: center;
+}
+
+
+.SoFunPic{
+    margin: auto;
+    left: 50%;
+    top: 50%;
+}
+
+.video{
+   text-align: center;
+   background-color: floralwhite;
+   padding: 20px;
+   min-width: fit-content;
+}
+

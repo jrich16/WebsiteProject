@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/fun.css"> 
+        <title>Fun Facts</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&family=Raleway:wght@300&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <!--Navigation back to the professional-looking pages-->
+        <nav>
+            <ul class="NavBarFun">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">Faith</a>
+                </li>
+                <li>
+                    <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>
+                </li>
+            </ul>
+       </nav>
+       <h1>Fun Facts about Jack</h1>
+       <!--On-Page Anchor??-->
+       <ul class="anchor">
+            <li><a href="#mydog">My Dog</a></li>
+            <li><a href="#yourdog">Your Dog</a></li>
+            <li><a href="#sillyvid">Silly Video</a></li> 
+            <li><a href="#myheart">The Way to My Heart</a></li>
+       </ul>
+        <ol id="listtofix">
+            <li id="mydog">
+                <h3>My Dog</h3>
+                    <p>This is my dog Lucky. He is the pride and joy of my life. Some of you may not suspect me to be such a dog lover, but let me tell you, this guy means the world to me. At the end of this calendar year, Lucky and I will be celebrating his 10 year "gotcha day" anniversary!</p>
+                    <!--One image-->
+                    <img class="SoFunPic" style="display:block" src="./assets/img/Lucky.jpg" width="500" alt="Lucky"/>
+            </li>
+            <li id="yourdog">
+                <h3>Your Dog</h3>
+                    <p>Because I love Lucky so much, I believe it is crucial that anyone looking to be a dog owner is paired with the proper pup. I love this helpful chart which is a great aid in finding the right dog for you!</p>
+                     <!--Live and Interactive Tableau graph-->
+                    <div id="holdtableau">
+                        <div class='tableau' id='viz1681749106945' style='position: relative'><noscript><a href='#'><img alt='Which Dog Should You Adopt? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whichdogshouldyouadopt&#47;WhichDogShouldYouAdopt&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;Whichdogshouldyouadopt&#47;WhichDogShouldYouAdopt?:language=en-US&amp;:embed=true' /> <param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wh&#47;Whichdogshouldyouadopt&#47;WhichDogShouldYouAdopt&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+                        <script type='text/javascript'>                   
+                         var divElement = document.getElementById('viz1681749106945');                    
+                         var vizElement = divElement.getElementsByTagName('object')[0];                    
+                         if ( divElement.offsetWidth > 800 ) { vizElement.style.width='870px';vizElement.style.height='500px';} 
+                         else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='870px';vizElement.style.height='500px';} 
+                         else { vizElement.style.width='870px';vizElement.style.height='500px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    </div>
+                </li>
+            <li id="sillyvid">
+                <h3>Silly Video</h3>
+                    <p>When I am sad, I like to watch this video and remember the time my friend Allie and I recreated this scene during our senior year of high school.</p>
+                    <!--Embedded YouTube video-->
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mKlsiXb2PGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </li>
+            <!--Unordered list embedded in an ordered list-->
+            <li id="myheart">
+                <h3>The Way to My Heart</h3>
+                    <ul>
+                        <li>Buy me a cookie</li>
+                        <li>Say I am handsome</li>
+                        <li>Visit my dog Lucky with me</li>
+                        <li>Clean your dishes</li>
+                        <li>Enjoy nature</li>
+                        <li>A nice shoulder massage</li>
+                    </ul>
+            </li>
+        </ol>
+    </body>
+</html>
